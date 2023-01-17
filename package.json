@@ -1,0 +1,26 @@
+{
+    "name": "tabwidth.nvim",
+    "private": true,
+    "version": "0.0.1",
+    "description": "Attempts to sync the tabwidth option based on some project settings",
+    "main": "index.js",
+    "scripts": {
+        "prettier": "prettier -w ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/msg-labs/tabwidth.nvim.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/msg-labs/tabwidth.nvim/issues"
+    },
+    "homepage": "https://github.com/msg-labs/tabwidth.nvim#readme",
+    "dependencies": {
+        "@msg-labs/prettier-config": "1.1.1",
+        "prettier": "2.8.3"
+    },
+    "prettier": "@msg-labs/prettier-config"
+}
