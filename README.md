@@ -12,7 +12,11 @@ the TODO section for more info.
 ### With packer
 
 ```lua
-use({ 'msg-labs/tabwidth.nvim', run = 'npm i' })
+use({
+    'msg-labs/tabwidth.nvim',
+    requires = 'nvim-lua/plenary.nvim',
+    run = 'npm i'
+})
 ```
 
 ## TODO
